@@ -60,7 +60,7 @@ function checkSong(access_token: string) {
           art: thisSong.art,
         };
       });
-    }, 5000);
+    }, 1000);
   } catch (e) {
     console.error(e);
   }
